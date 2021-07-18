@@ -1,0 +1,50 @@
+.register{
+    height: calc(100vh  - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("");
+    
+}
+
+.registerTitle{
+    font-size: 50px;
+}
+
+.registerForm{
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+}
+
+.registerForm > label{
+    margin: 10px 0;
+}
+
+.registerInput{
+    padding: 20px;
+    background-color:white;
+    border: none;
+}
+
+.registerButton{
+    padding: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(19, 235, 224);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.regsterloginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgb(216, 11, 223);
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
